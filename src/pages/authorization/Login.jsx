@@ -54,6 +54,9 @@ function Login() {
 
   return (
     <div>
+     <Helmet>
+          <title>Chatapp</title>
+        </Helmet>
       <Formik
         initialValues={initialValues}
         validationSchema={validationSchema}
